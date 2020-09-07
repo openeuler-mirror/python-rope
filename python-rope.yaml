@@ -1,0 +1,4 @@
+version_control: github
+src_repo: python-rope/rope
+tag_prefix:
+separator: "."
