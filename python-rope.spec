@@ -1,9 +1,9 @@
 %global _empty_manifest_terminate_build 0
 Name:		python-rope
 Version:	0.17.0
-Release:	1
+Release:	2
 Summary:	a python refactoring library...
-License:	GNU GPL
+License:	LGPL-3.0-or-later and LGPL-3.0-only and GPL-3.0-only
 URL:		https://github.com/python-rope/rope
 Source0:	https://files.pythonhosted.org/packages/ba/44/714486676aeb10de586f892348973d2e6b7c2be4eaff434caaaa45e19e14/rope-0.17.0.tar.gz
 BuildArch:	noarch
@@ -67,5 +67,8 @@ mv %{buildroot}/doclist.lst .
 %{_docdir}/*
 
 %changelog
+* Mon May 9 2022 yaoxin <yaoxin30@h-partners.com> - 0.17.0-2
+- License compliance rectification
+
 * Thu Sep 03 2020 Python_Bot <Python_Bot@openeuler.org>
 - Package Spec generated
