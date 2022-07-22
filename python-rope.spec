@@ -1,11 +1,11 @@
 %global _empty_manifest_terminate_build 0
 Name:		python-rope
-Version:	0.17.0
-Release:	2
+Version:	1.2.0
+Release:	1
 Summary:	a python refactoring library...
 License:	LGPL-3.0-or-later and LGPL-3.0-only and GPL-3.0-only
 URL:		https://github.com/python-rope/rope
-Source0:	https://files.pythonhosted.org/packages/ba/44/714486676aeb10de586f892348973d2e6b7c2be4eaff434caaaa45e19e14/rope-0.17.0.tar.gz
+Source0:	https://files.pythonhosted.org/packages/7a/46/412e491b73bb5e906178677917395b6437b7914576a85468fad22d575e32/rope-1.2.0.tar.gz
 BuildArch:	noarch
 
 
@@ -27,7 +27,7 @@ Provides:	python3-rope-doc
 Rope is a python refactoring library.
 
 %prep
-%autosetup -n rope-0.17.0
+%autosetup -n rope-1.2.0
 
 %build
 %py3_build
@@ -67,6 +67,9 @@ mv %{buildroot}/doclist.lst .
 %{_docdir}/*
 
 %changelog
+* Sat Jul 23 2022 hkgy <kaguyahatu@outlook.com> - 1.2.0-1
+- Update to 1.2.0
+
 * Mon May 9 2022 yaoxin <yaoxin30@h-partners.com> - 0.17.0-2
 - License compliance rectification
 
